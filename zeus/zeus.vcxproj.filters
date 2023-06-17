@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ecs">
+      <UniqueIdentifier>{57FA2FA9-C3D9-AE44-CCF1-391B385015A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\event">
+      <UniqueIdentifier>{5E2A22B5-CA94-D62B-13D3-87D17F7CB480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\include">
+      <UniqueIdentifier>{A0AF70A7-0C65-E99C-9559-E373010EE0A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\renderer">
+      <UniqueIdentifier>{936D1A48-7FD0-A9EC-2856-E2A21498756F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\renderer\misc">
+      <UniqueIdentifier>{4EF41C05-BA0A-1B9B-0382-A6BC6FD7EB22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\renderer\misc\default_shaders">
+      <UniqueIdentifier>{EB77B663-57E6-0BE3-A0CF-C6E20C7D017F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\renderer\opengl">
+      <UniqueIdentifier>{C7CB4CC5-332D-2AD3-BC9A-708528FB6092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{BA5238CF-A61F-93DA-CF38-8182BB64C868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\window">
+      <UniqueIdentifier>{94D77D82-808F-BFCF-E996-982BD56D5AC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{B3738122-9F15-ACF8-88D0-BF4C74113349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glad">
+      <UniqueIdentifier>{9A8E79C1-0644-F2B6-8F38-EC8DFBECE8BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glad\src">
+      <UniqueIdentifier>{B1098FEA-1D95-FCAE-26A6-7FA392B058AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\imgui">
+      <UniqueIdentifier>{5D3BD0F0-499E-5F95-F223-984BDE652B18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\imgui\backends">
+      <UniqueIdentifier>{27CEAEAF-933A-6AAA-5C2E-0208C8598C12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\stb_image">
+      <UniqueIdentifier>{0DA0BA59-F998-D9AB-22CB-BE300E23B9B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\stb_image\include">
+      <UniqueIdentifier>{8084391F-6CA9-889F-95F4-6D2F817887BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\stb_image\include\stb">
+      <UniqueIdentifier>{D8828371-C43D-731D-6DF5-EB67598FBDAD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="corepch.h" />
+    <ClInclude Include="src\application.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ecs\Components.h">
+      <Filter>src\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\event.h">
+      <Filter>src\event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\key_event.h">
+      <Filter>src\event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\mouse_event.h">
+      <Filter>src\event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\window_event.h">
+      <Filter>src\event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\zeus.h">
+      <Filter>src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer_queue.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\framebuffer.h">
+      <Filter>src\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\misc\default_shaders\default_shaders.h">
+      <Filter>src\renderer\misc\default_shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\opengl\debugger.h">
+      <Filter>src\renderer\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\opengl\opengl_framebuffer.h">
+      <Filter>src\renderer\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\opengl\opengl_renderer.h">
+      <Filter>src\renderer\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\opengl\opengl_shader.h">
+      <Filter>src\renderer\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\opengl\opengl_texture.h">
+      <Filter>src\renderer\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\render_command.h">
+      <Filter>src\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\renderer.h">
+      <Filter>src\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\renderer_constants.h">
+      <Filter>src\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\shader.h">
+      <Filter>src\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\camera.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\file_manager.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\imgui_ui.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\logger.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\random.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\string_manipulation.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\texture.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\texture_manager.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\input.h">
+      <Filter>src\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\window.h">
+      <Filter>src\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\window_constants.h">
+      <Filter>src\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\windows_window.h">
+      <Filter>src\window</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\backends\imgui_impl_glfw.h">
+      <Filter>vendor\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\backends\imgui_impl_opengl3.h">
+      <Filter>vendor\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imconfig.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_internal.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_rectpack.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_textedit.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_truetype.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\stb_image\include\stb\stb_image.h">
+      <Filter>vendor\stb_image\include\stb</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="corepch.cpp" />
+    <ClCompile Include="src\application.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\event.cpp">
+      <Filter>src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\key_event.cpp">
+      <Filter>src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\mouse_event.cpp">
+      <Filter>src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\window_event.cpp">
+      <Filter>src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer_queue.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\framebuffer.cpp">
+      <Filter>src\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\opengl\debugger.cpp">
+      <Filter>src\renderer\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\opengl\opengl_framebuffer.cpp">
+      <Filter>src\renderer\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\opengl\opengl_renderer.cpp">
+      <Filter>src\renderer\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\opengl\opengl_shader.cpp">
+      <Filter>src\renderer\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\opengl\opengl_texture.cpp">
+      <Filter>src\renderer\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\render_command.cpp">
+      <Filter>src\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\renderer.cpp">
+      <Filter>src\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\shader.cpp">
+      <Filter>src\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\camera.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\file_manager.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\imgui_ui.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\logger.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\random.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\texture.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\texture_manager.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\input.cpp">
+      <Filter>src\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\window.cpp">
+      <Filter>src\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\windows_window.cpp">
+      <Filter>src\window</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\glad\src\gl.c">
+      <Filter>vendor\glad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>vendor\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>vendor\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_demo.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_draw.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_tables.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_widgets.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\stb_image\include\stb\stb_image.cpp">
+      <Filter>vendor\stb_image\include\stb</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

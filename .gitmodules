@@ -1,0 +1,3 @@
+[submodule "zerializer"]
+	path = zerializer
+	url = https://github.com/Damian-crypto/zerializer.git

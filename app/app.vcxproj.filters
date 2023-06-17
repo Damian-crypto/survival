@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="character">
+      <UniqueIdentifier>{9263CB34-FECD-7FAB-470C-3151B3B55D00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="weapon">
+      <UniqueIdentifier>{6FAECF24-5B50-FAFA-440B-0E4F304C814B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\character\character.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="src\character\enemy.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="src\character\enemy_registry.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="src\character\player.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_layer.h" />
+    <ClInclude Include="src\game_level.h" />
+    <ClInclude Include="src\level_manager.h" />
+    <ClInclude Include="src\sprite.h" />
+    <ClInclude Include="src\weapon\weapon.h">
+      <Filter>weapon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\character\character.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="src\character\enemy.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="src\character\enemy_registry.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="src\character\player.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_layer.cpp" />
+    <ClCompile Include="src\game_level.cpp" />
+    <ClCompile Include="src\level_manager.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\weapon\axe.cpp">
+      <Filter>weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\weapon\gun.cpp">
+      <Filter>weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\weapon\sword.cpp">
+      <Filter>weapon</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

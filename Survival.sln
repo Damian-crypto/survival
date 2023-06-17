@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app", "app\app.vcxproj", "{665E880B-D267-887C-5BE3-9E7CC7EB937C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{8249BEE1-6EAC-4D86-1732-863C03741909}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glfw", "zeus\vendor\glfw\glfw.vcxproj", "{9563977C-819A-980D-2A87-7E10169D140F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "phyzics", "phyzics\phyzics.vcxproj", "{4FFAA4AC-BBD9-2348-C4F1-AE1E30508AA9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zeus", "zeus\zeus.vcxproj", "{ECB2A17C-D8E9-A20D-81D6-88106DEC1E0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{DD376B17-49ED-E30C-D2E1-DDE33E96DA10}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zerializer", "zerializer\zerializer.vcxproj", "{66B9E5C9-5271-2717-BB78-0073A74FC207}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Dist|x64 = Dist|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{665E880B-D267-887C-5BE3-9E7CC7EB937C}.Debug|x64.ActiveCfg = Debug|x64
+		{665E880B-D267-887C-5BE3-9E7CC7EB937C}.Debug|x64.Build.0 = Debug|x64
+		{665E880B-D267-887C-5BE3-9E7CC7EB937C}.Dist|x64.ActiveCfg = Dist|x64
+		{665E880B-D267-887C-5BE3-9E7CC7EB937C}.Dist|x64.Build.0 = Dist|x64
+		{665E880B-D267-887C-5BE3-9E7CC7EB937C}.Release|x64.ActiveCfg = Release|x64
+		{665E880B-D267-887C-5BE3-9E7CC7EB937C}.Release|x64.Build.0 = Release|x64
+		{9563977C-819A-980D-2A87-7E10169D140F}.Debug|x64.ActiveCfg = Debug|x64
+		{9563977C-819A-980D-2A87-7E10169D140F}.Debug|x64.Build.0 = Debug|x64
+		{9563977C-819A-980D-2A87-7E10169D140F}.Dist|x64.ActiveCfg = Dist|x64
+		{9563977C-819A-980D-2A87-7E10169D140F}.Dist|x64.Build.0 = Dist|x64
+		{9563977C-819A-980D-2A87-7E10169D140F}.Release|x64.ActiveCfg = Release|x64
+		{9563977C-819A-980D-2A87-7E10169D140F}.Release|x64.Build.0 = Release|x64
+		{4FFAA4AC-BBD9-2348-C4F1-AE1E30508AA9}.Debug|x64.ActiveCfg = Debug|x64
+		{4FFAA4AC-BBD9-2348-C4F1-AE1E30508AA9}.Debug|x64.Build.0 = Debug|x64
+		{4FFAA4AC-BBD9-2348-C4F1-AE1E30508AA9}.Dist|x64.ActiveCfg = Dist|x64
+		{4FFAA4AC-BBD9-2348-C4F1-AE1E30508AA9}.Dist|x64.Build.0 = Dist|x64
+		{4FFAA4AC-BBD9-2348-C4F1-AE1E30508AA9}.Release|x64.ActiveCfg = Release|x64
+		{4FFAA4AC-BBD9-2348-C4F1-AE1E30508AA9}.Release|x64.Build.0 = Release|x64
+		{ECB2A17C-D8E9-A20D-81D6-88106DEC1E0F}.Debug|x64.ActiveCfg = Debug|x64
+		{ECB2A17C-D8E9-A20D-81D6-88106DEC1E0F}.Debug|x64.Build.0 = Debug|x64
+		{ECB2A17C-D8E9-A20D-81D6-88106DEC1E0F}.Dist|x64.ActiveCfg = Dist|x64
+		{ECB2A17C-D8E9-A20D-81D6-88106DEC1E0F}.Dist|x64.Build.0 = Dist|x64
+		{ECB2A17C-D8E9-A20D-81D6-88106DEC1E0F}.Release|x64.ActiveCfg = Release|x64
+		{ECB2A17C-D8E9-A20D-81D6-88106DEC1E0F}.Release|x64.Build.0 = Release|x64
+		{66B9E5C9-5271-2717-BB78-0073A74FC207}.Debug|x64.ActiveCfg = Debug|x64
+		{66B9E5C9-5271-2717-BB78-0073A74FC207}.Debug|x64.Build.0 = Debug|x64
+		{66B9E5C9-5271-2717-BB78-0073A74FC207}.Dist|x64.ActiveCfg = Dist|x64
+		{66B9E5C9-5271-2717-BB78-0073A74FC207}.Dist|x64.Build.0 = Dist|x64
+		{66B9E5C9-5271-2717-BB78-0073A74FC207}.Release|x64.ActiveCfg = Release|x64
+		{66B9E5C9-5271-2717-BB78-0073A74FC207}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9563977C-819A-980D-2A87-7E10169D140F} = {8249BEE1-6EAC-4D86-1732-863C03741909}
+		{4FFAA4AC-BBD9-2348-C4F1-AE1E30508AA9} = {8249BEE1-6EAC-4D86-1732-863C03741909}
+		{ECB2A17C-D8E9-A20D-81D6-88106DEC1E0F} = {8249BEE1-6EAC-4D86-1732-863C03741909}
+		{66B9E5C9-5271-2717-BB78-0073A74FC207} = {DD376B17-49ED-E30C-D2E1-DDE33E96DA10}
+	EndGlobalSection
+EndGlobal

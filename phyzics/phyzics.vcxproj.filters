@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="bodies">
+      <UniqueIdentifier>{5BD489F4-4776-B4CA-3031-C81E1C723B1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{CF809A7C-BBB7-9B0D-64A4-811050BA170F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\bodies\body.h">
+      <Filter>bodies</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\phyzicsall.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\utils.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\phyzics.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\bodies\body.cpp">
+      <Filter>bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="src\phyzics.cpp" />
+  </ItemGroup>
+</Project>
